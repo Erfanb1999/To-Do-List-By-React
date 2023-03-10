@@ -1,0 +1,62 @@
+header {
+  border-bottom: 1px solid #999;
+  padding: 20px 20px 10px 20px;
+}
+
+form {
+  position: relative;
+}
+
+form input {
+  width: 100%;
+  padding: 5px 5px 5px 38px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 17px;
+}
+
+form svg {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  font-size: 21px;
+  fill: #888;
+}
+
+.tools {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tools ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tools ul li {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 0 10px;
+  color: #555;
+  cursor: pointer;
+}
+
+.tools ul li:first-child {
+  margin-left: 0;
+}
+
+.tools button {
+  background: linear-gradient(to bottom right, #a6c6fe, #77a9ff);
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.tools ul li.active {
+  color: #3a98ff;
+}

@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  font-family: vazir;
+}
+
+body {
+  background-color: #3a98ff;
+}
+
+.container {
+  background-color: white;
+  width: 450px;
+  margin: 50px auto;
+  border-radius: 10px;
+}
